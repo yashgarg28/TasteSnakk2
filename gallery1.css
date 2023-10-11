@@ -1,0 +1,153 @@
+************************************ FONTS ************************************/ @import url("https://use.typekit.net/ovt6ynt.css");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Spectral:wght@200;300;400;500;600;700;800&display=swap");
+
+/*
+// Full card bootstrap
+//
+*/
+
+
+
+.card,
+body {
+    display: flex;
+}
+
+
+body {
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    line-height: 1.5;
+    color: #212529;
+    -webkit-text-size-adjust: 100%;
+    background-image: linear-gradient(bottom, #343a40, #66347F, #9E4784, #D27685);
+}
+
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 3;
+        column-gap: 1.125rem;
+        orphans: 4;
+        widows: 4;
+    }
+
+    .container {
+        max-width: 98%;
+    }
+}
+
+@media (min-width: 796px) {
+    .card-columns {
+        column-count: 3;
+        column-gap: 1.125rem;
+        orphans: 4;
+        widows: 4;
+    }
+}
+
+
+
+
+/*.card-body.three {
+    background-image: url("https://images.unsplash.com/photo-1471110338536-858caa3dbe45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c3RyZWV0JTIwdmVuZG9yfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    background-size: cover;
+    height: 340px;
+    background-position: 50% 35%;
+    border-radius: 12px 12px 0 0;
+    border-radius: 12px;
+}*/
+
+
+.card-body.three .footer {
+    color: red !important;
+    margin-top: 150px;
+}
+
+.img-1 {
+    background-image: url("Images/Say\ Cheeze.jpeg");
+    background-size: cover;
+    height: 340px;
+    background-position: 50% 35%;
+    border-radius: 12px 12px 0 0;
+    border-radius: 12px;
+}
+
+.img-2 {
+    background-image: url("Images/gauris.jpeg");
+    background-size: cover;
+    height: 280px;
+    background-position: 50% 35%;
+    border-radius: 12px 12px 0 0;
+    border-radius: 12px;
+}
+
+.img-3 {
+    background-image: url("Images/Yashshree\'s\ Coffee\ House.jpeg");
+    background-size: cover;
+    height: 300px;
+    background-position: 50% 35%;
+    border-radius: 12px 12px 0 0;
+    border-radius: 12px;
+}
+
+.img-4 {
+    background-image: url("Images/Famous\ Fruit\ Juice\ Centre\ .jpeg");
+    background-size: cover;
+    height: 280px;
+    background-position: 50% 35%;
+    border-radius: 12px 12px 0 0;
+    border-radius: 12px;
+}
+
+.img-5 {
+    background-image: url("Images/Sai\ Tea\ and\ Coffee.jpeg");
+    background-size: cover;
+    height: 300px;
+    background-position: 50% 35%;
+    border-radius: 12px 12px 0 0;
+    border-radius: 12px;
+}
+
+.img-6 {
+    background-image: url("Images/Pizza\ Box.jpeg");
+    background-size: cover;
+    height: 340px;
+    background-position: 50% 35%;
+    border-radius: 12px 12px 0 0;
+    border-radius: 12px;
+}
+
+.img-7 {
+    background-image: url("Images/Patashi\ Wala.jpeg");
+    background-size: cover;
+    height: 300px;
+    background-position: 50% 35%;
+    border-radius: 12px 12px 0 0;
+    border-radius: 12px;
+}
+
+.img-8 {
+    background-image: url("Images/Yuvi\'s\ Sandwich.jpeg");
+    background-size: cover;
+    height: 300px;
+    background-position: 50% 35%;
+    border-radius: 12px 12px 0 0;
+    border-radius: 12px;
+}
+
+.img-9 {
+    background-image: url("Images/Jagdamba.jpeg");
+    background-size: cover;
+    height: 300px;
+    background-position: 50% 35%;
+    border-radius: 12px 12px 0 0;
+    border-radius: 12px;
+}
+
+
+.card.border-0.wtab {
+    margin-top: 30px !important;
+}

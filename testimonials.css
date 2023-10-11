@@ -1,0 +1,84 @@
+.main {
+    background-color: red;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1471110338536-858caa3dbe45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c3RyZWV0JTIwdmVuZG9yfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+}
+
+
+
+h3 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: inline;
+}
+
+h4 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: inline;
+}
+
+#reviews {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.card-container {
+    padding-top: 2rem;
+}
+
+.more {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    color: wheat;
+}
+
+h3 {
+    color: wheat;
+}
+h1 {
+    display: inline-block;
+	margin: 0;
+}
+
+
+nav{
+    text-align: right;
+    display: inline-flex;
+}
+
+
+nav ul {
+    display: inline-block;
+    text-align: center;
+	margin: 10px;
+	padding: 0;
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav ul li a {
+	display: block;
+	padding: 10px;
+	color: #333;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	background-color: #333;
+	color: #fff;
+}
